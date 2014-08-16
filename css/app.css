@@ -1,0 +1,10 @@
+#modal {
+    background-color:yellow;
+    position:absolute;
+    height:90%;
+    width:90%;
+    margin:auto;
+    top:5%;
+    left:5%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}

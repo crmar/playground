@@ -1,8 +1,15 @@
 $(function() {
+    $("#modal").hide();
     $("#append-hoge").click(function() {
         var input_word = $("#append-text").val();
         $("#hoge-list").append("<li>" + input_word + "</li>");
         $("#append-text").val("");
+    });
+    $("#show-modal").click(function() {
+        $("#modal").show();
+    });
+    $("#hide-modal").click(function() {
+        $("#modal").hide();
     });
 });
 
